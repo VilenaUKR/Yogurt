@@ -16,11 +16,13 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 70px;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 48px;
+  opacity: 0.9;
 }
 
 h3 {
@@ -30,6 +32,11 @@ h3 {
 
 .text-left {
   text-align: left;
+}
+
+.text-info {
+  color: var(--primary-color) !important;
+opacity: 0.8;
 }
 
 .about-paragraphs p {
@@ -111,16 +118,17 @@ p {
 }
 
 @media (max-width: 800px) {
-  .navbar-brand{
-  font-size: 15px;
-  }
-  .navbar-toggler{
-font-size: small;
+  .navbar-brand {
+    font-size: 18px;
   }
 
- .navbar-nav{
-  font-size: 12px;
- }
+  .navbar-toggler {
+    font-size: 15px;
+  }
+
+  .navbar-nav {
+    font-size: 15px;
+  }
 
   h1 {
     font-size: 25px;
